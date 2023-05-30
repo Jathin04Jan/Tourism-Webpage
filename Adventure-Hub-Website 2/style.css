@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f9f9f9;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 2em;
+    color: #fff;
+    pointer-events: none;
+    margin-right: 270px;
+}
+
+.navigation a {
+   text-decoration: none;
+   color: #fff;       
+   padding: 6px 15px;
+   border-radius: 20px;
+   margin: 0 10px;
+   font-weight: 600; 
+}
+
+.navigation a:hover,
+.navigation a.active {
+    background: #fff;
+    color: #48b7a3;
+}
+
+
+.parallax1 {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 128vh;
+}
+
+.parallax{
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.parallax1 {
+    background: #f9f9f9;
+    height:127vh
+  }
+  
+  .parallax2 {
+    background: #f9f9f9;
+    height: 100vh;
+  }
+
+.spacewater{
+    height: 20vh;
+    background-color: rgb(37, 64, 58);
+}
+
+.about{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+    height: 100vh;
+}
+
+#text {
+    position: absolute;
+    font-size: 4em;
+    color: #fff;
+    align-self: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.parallax img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.sec {
+    position: relative;
+    background: #003329;
+    padding: 100px;
+}
+
+.sec h2 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.sec p {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}
+
+.parachute{
+    max-width: 10%;
+    height: auto;
+}
+
+@media (max-width: 1040px){
+    header {
+        padding: 12px 20px;
+    }
+}
+
+.heading{
+    text-align: center;
+    padding: 2rem 0
+}
+
+.heading span{
+    font-size: 3.5rem;
+    background: rgba((255), 165, 0, .2);
+    color: #2b6368;
+    border-radius:.5rem;
+    padding:.2rem 1rem;
+}
+
+.footer {
+    background: #333;
+    size-adjust: unset;
+    align-content: center;
+}
+
+.footer .box-container {
+   position: relative;
+    display: flex;
+   flex-wrap: wrap;
+   gap: 1.5rem;
+   size-adjust: initial;
+   align-content: center;
+}
+
+.footer .box-container .box {
+    padding: 1rem 0;
+    flex: 1 1 25rem;
+    align-items: center;
+}
+
+.footer .box-container .box h3 {
+    font-size: 2rem;
+    padding: .7rem 2;
+    color: #fff;
+    text-align: center;
+}
+
+.footer .box-container .box p {
+    font-size: 1rem;
+    padding: .7rem 2;
+    color: #eee;
+    font-style: italic;
+    text-align: center;
+}
+
+.footer .box-container .box a {
+    display: block;
+    font-size: 1rem;
+    padding: .7rem 0;
+    color: #eee;
+    font-style: italic;
+    text-align: center;
+}
+
+.footer .box-container .box a:hover {
+    color: #2b6368;
+    text-decoration: underline;
+}
+
+.footer .credit {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #fff;
+    border-top: .1rem solid rgba( 255, 225, 225, .2);
+}
+
+.footer .credit span{
+    color: #2b6368;
+}
